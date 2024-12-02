@@ -1,1 +1,72 @@
+//LEFT CONTROLLER WINS 
 
+//NOTE: THIS CODE IS UNFINISHED AS ITS CURRENTLY MISSING THE LIGHT FEATURE. THE LIGHT FEATURE WILL BE ADDED IN SOON.
+
+#include <Adafruit_CircuitPlayground.h>
+bool leftButtonPressed;
+
+void setup() {
+  CircuitPlayground.begin();
+
+}
+
+void loop() {
+leftButtonPressed = CircuitPlayground.leftButton();
+  CircuitPlayground.clearPixels();
+
+  if (leftButtonPressed){
+  
+//BARS 1-2
+  CircuitPlayground.playTone(261, 125);
+  CircuitPlayground.playTone(329, 125);
+  CircuitPlayground.playTone(392, 125);
+  CircuitPlayground.playTone(440, 125);
+  CircuitPlayground.playTone(493, 250);
+  CircuitPlayground.playTone(261, 125);
+  CircuitPlayground.playTone(329, 125);
+  CircuitPlayground.playTone(392, 125);
+  CircuitPlayground.playTone(440, 125);
+  CircuitPlayground.playTone(493, 380);
+  CircuitPlayground.playTone(440, 350);
+
+//BARS 2-4
+  CircuitPlayground.playTone(261, 125);
+  CircuitPlayground.playTone(329, 125);
+  CircuitPlayground.playTone(392, 125);
+  CircuitPlayground.playTone(440, 125);
+  CircuitPlayground.playTone(493, 250);
+  CircuitPlayground.playTone(261, 125);
+  CircuitPlayground.playTone(329, 125);
+  CircuitPlayground.playTone(392, 125);
+  CircuitPlayground.playTone(440, 125);
+  CircuitPlayground.playTone(493, 380);
+  CircuitPlayground.playTone(440, 350);
+
+//BARS 4-6
+  CircuitPlayground.playTone(293, 125);
+  CircuitPlayground.playTone(349, 125);
+  CircuitPlayground.playTone(440, 125);
+  CircuitPlayground.playTone(493, 125);
+  CircuitPlayground.playTone(587, 250);
+  CircuitPlayground.playTone(293, 125);
+  CircuitPlayground.playTone(349, 125);
+  CircuitPlayground.playTone(440, 125);
+  CircuitPlayground.playTone(493, 125);
+  CircuitPlayground.playTone(659, 380);
+  CircuitPlayground.playTone(587, 350);
+ 
+//BARS 6-8
+  CircuitPlayground.playTone(246, 125);
+  CircuitPlayground.playTone(329, 125);
+  CircuitPlayground.playTone(392, 125);
+  CircuitPlayground.playTone(493, 125);
+  CircuitPlayground.playTone(587, 250);
+  CircuitPlayground.playTone(220, 125);
+  CircuitPlayground.playTone(329, 125);
+  CircuitPlayground.playTone(440, 125);
+  CircuitPlayground.playTone(493, 125);
+  CircuitPlayground.playTone(659, 380);
+  CircuitPlayground.playTone(587, 350);
+  delay(50);
+  }
+}
