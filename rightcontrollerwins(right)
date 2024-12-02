@@ -50,7 +50,7 @@ leftButtonPressed = CircuitPlayground.leftButton();
   CircuitPlayground.playTone(196, 250);
   CircuitPlayground.playTone(246, 250);
   CircuitPlayground.playTone(277, 305);
-  CircuitPlayground.playTone(329, 250);
+  CircuitPlayground.playTone(369, 250);
   CircuitPlayground.playTone(277, 250);
 
   //BARS 6-8
