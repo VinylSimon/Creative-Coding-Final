@@ -21,17 +21,35 @@ leftButtonPressed = CircuitPlayground.leftButton();
   CircuitPlayground.playTone(329, 250);
   CircuitPlayground.playTone(277, 250);
 
-  //BARS 2-4
   CircuitPlayground.playTone(196, 250);
   CircuitPlayground.playTone(246, 250);
   CircuitPlayground.playTone(277, 305);
   CircuitPlayground.playTone(329, 250);
   CircuitPlayground.playTone(277, 250);
 
-  //BARS 4-6
+  //BARS 2-4
   CircuitPlayground.playTone(146, 250);
   CircuitPlayground.playTone(185, 250);
   CircuitPlayground.playTone(246, 305);
+  CircuitPlayground.playTone(329, 250);
+  CircuitPlayground.playTone(277, 250);
+ 
+  CircuitPlayground.playTone(146, 250);
+  CircuitPlayground.playTone(185, 250);
+  CircuitPlayground.playTone(246, 305);
+  CircuitPlayground.playTone(329, 250);
+  CircuitPlayground.playTone(277, 250);
+  
+  //BARS 4-6
+  CircuitPlayground.playTone(196, 250);
+  CircuitPlayground.playTone(246, 250);
+  CircuitPlayground.playTone(277, 305);
+  CircuitPlayground.playTone(329, 250);
+  CircuitPlayground.playTone(277, 250);
+
+  CircuitPlayground.playTone(196, 250);
+  CircuitPlayground.playTone(246, 250);
+  CircuitPlayground.playTone(277, 305);
   CircuitPlayground.playTone(329, 250);
   CircuitPlayground.playTone(277, 250);
 
@@ -41,6 +59,13 @@ leftButtonPressed = CircuitPlayground.leftButton();
   CircuitPlayground.playTone(246, 305);
   CircuitPlayground.playTone(329, 250);
   CircuitPlayground.playTone(277, 250);
+ 
+  CircuitPlayground.playTone(146, 250);
+  CircuitPlayground.playTone(185, 250);
+  CircuitPlayground.playTone(246, 305);
+  CircuitPlayground.playTone(329, 250);
+  CircuitPlayground.playTone(277, 250);
+
  
   }
 }
