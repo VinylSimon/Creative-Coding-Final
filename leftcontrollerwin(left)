@@ -1,4 +1,4 @@
-//LEFT CONTROLLER WINS 
+//LEFT CONTROLLER WINS  (LEFT SIDE- WINS)
 
 //NOTE: THIS CODE IS UNFINISHED AS ITS CURRENTLY MISSING THE LIGHT FEATURE. THE LIGHT FEATURE WILL BE ADDED IN SOON.
 
@@ -14,7 +14,7 @@ void loop() {
 leftButtonPressed = CircuitPlayground.leftButton();
   CircuitPlayground.clearPixels();
 
-  if (leftButtonPressed){
+  //if (leftButtonPressed){
   
 //BARS 1-2
   CircuitPlayground.playTone(261, 125);
@@ -68,5 +68,5 @@ leftButtonPressed = CircuitPlayground.leftButton();
   CircuitPlayground.playTone(659, 380);
   CircuitPlayground.playTone(587, 350);
   delay(50);
-  }
+  //}
 }
