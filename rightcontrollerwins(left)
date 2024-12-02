@@ -1,0 +1,37 @@
+//RIGHT CONTROLLER WINS (LEFT LOSE)
+
+#include <Adafruit_CircuitPlayground.h>
+bool leftButtonPressed;
+
+void setup() {
+  CircuitPlayground.begin();
+
+}
+
+void loop() {
+leftButtonPressed = CircuitPlayground.leftButton();
+  CircuitPlayground.clearPixels();
+
+  //if (leftButtonPressed){
+  
+//BARS 1-2
+  CircuitPlayground.playTone(98, 1950);
+  CircuitPlayground.playTone(138, 330);
+  CircuitPlayground.playTone(110, 330);
+
+  //BARS 2-4
+  CircuitPlayground.playTone(92, 1950);
+  CircuitPlayground.playTone(138, 330);
+  CircuitPlayground.playTone(110, 330);
+
+  //BARS 4-6
+  CircuitPlayground.playTone(98, 1950);
+  CircuitPlayground.playTone(138, 330);
+  CircuitPlayground.playTone(110, 330);
+
+  //BARS 6-8
+  CircuitPlayground.playTone(73, 1950);
+  CircuitPlayground.playTone(73, 330);
+  CircuitPlayground.playTone(73, 330);
+  //}
+}
